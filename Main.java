@@ -7,11 +7,13 @@ class Property {
     private String propertyId;
     private String propertyName;
     private long propertyValue;
+    private String propertyResArea;
 
-    public Property(String id, String name, long value) {
+    public Property(String id, String name, long value, String proprtyResArea) {
         propertyId = id;
         propertyName = name;
         propertyValue = value;
+        propertyResArea = residential_area;
     }
 
     public String getPropertyId() {
